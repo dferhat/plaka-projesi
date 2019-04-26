@@ -1,9 +1,9 @@
 .Header-icon {
   position: absolute;
   right: 0;
-  margin-right: 150px;
-  margin-left: 150px;
-  top: 50px;
+  margin-right: 35px;
+  margin-left: 0;
+  top: 10px;
   cursor: pointer;
   font-size: 44px;
   z-index: 6; }
@@ -12,6 +12,7 @@
   display: none; }
 
 .Header .down {
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -21,8 +22,7 @@
   height: 100vh;
   background-color: black;
   opacity: 0.9;
-  z-index: 5;
-  transition: 2s; }
+  z-index: 5; }
   .Header .down a {
     padding-top: 35px;
     padding-bottom: 35px;
