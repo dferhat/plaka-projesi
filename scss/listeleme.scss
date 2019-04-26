@@ -11,12 +11,12 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        p{
+        :nth-child(2){
             padding: 10px;
         }
     }
     .timeline{
-        width: 100%;
+       // width: 100%;
         height: 100vh;
         // padding-top: 50px;
         // padding-bottom: 5px;
@@ -47,8 +47,40 @@
                 cursor: pointer;
               }
         }
-          
-          
-    
     }
+
+    @media (min-width: 768px) { 
+        
+        .timeline{
+            position: relative;
+         // width: 100%;
+            height: 100%;
+            padding-left: 80px;
+            padding-right: 80px;
+            display: flex;
+            justify-content: center;
+
+            .box{
+                width: 400px;
+            }
+
+            .left-side{
+                width: 50%;
+                position: absolute;
+                display: flex;
+                left: 0;
+                flex-direction: column;
+                align-items: center;   
+            }
+
+            .right-side{
+                width: 50%;
+                position: absolute;
+                right: 0;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+     }
 }
