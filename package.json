@@ -1,7 +1,6 @@
 {
   "name": "plaka",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "sass": "node-sass -w scss/ -o src/css/ --recursive"
@@ -10,5 +9,14 @@
   "license": "ISC",
   "dependencies": {
     "node-sass": "^4.11.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dferhat/plaka-projesi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dferhat/plaka-projesi/issues"
+  },
+  "homepage": "https://github.com/dferhat/plaka-projesi#readme",
+  "description": ""
 }
