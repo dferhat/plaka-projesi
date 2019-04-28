@@ -386,7 +386,7 @@ td {
       .Main .timeline .back a {
         color: black; }
       .Main .timeline .back:hover {
-        background-color: black; }
+        background-color: #222222; }
         .Main .timeline .back:hover a {
           color: #fff; }
   @media (min-width: 768px) {

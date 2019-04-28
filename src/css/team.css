@@ -11,7 +11,7 @@ body {
   font-size: 44px;
   z-index: 6; }
 
-.Header-nav {
+.Header .nav {
   display: none; }
 
 .Header .down {
@@ -73,7 +73,7 @@ body {
   .Main .first {
     width: 50%;
     height: 100%;
-    background-color: black;
+    background-color: #222222;
     opacity: 1;
     display: flex;
     flex-direction: column;
@@ -88,6 +88,8 @@ body {
       padding-bottom: 20px;
       letter-spacing: 1.5px;
       color: #fff; }
+      .Main .first .content h1 {
+        font-weight: 700; }
     .Main .first .links i {
       padding-left: 10px;
       padding-right: 10px;
@@ -135,7 +137,7 @@ body {
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      background-color: black; }
+      background-color: #222222; }
       .Main .first .img img {
         width: 200px;
         height: 200px;

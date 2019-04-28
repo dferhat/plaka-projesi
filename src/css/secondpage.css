@@ -363,7 +363,7 @@ td {
       top: auto;
       right: 0;
       font-size: 34px; } }
-  .Main .Header-nav {
+  .Main .nav {
     display: none; }
   .Main .down {
     padding: 0;
@@ -395,7 +395,7 @@ td {
     animation-duration: 3s;
     animation-fill-mode: forwards; }
   .Main .yeni {
-    color: black;
+    color: #222222;
     animation-name: arrow-down;
     animation-duration: 3s;
     animation-fill-mode: forwards; }
@@ -459,7 +459,7 @@ td {
       .Main .timeline .box {
         width: 500px; }
         .Main .timeline .box:hover {
-          background-color: #444;
+          background-color: #222222;
           transition: 0.7s; }
           .Main .timeline .box:hover i {
             color: #fff; }

@@ -355,7 +355,7 @@ template {
   font-size: 44px;
   z-index: 6; }
 
-.Header-nav {
+.Header .nav {
   display: none; }
 
 .Header .down {
@@ -386,7 +386,7 @@ template {
   animation-fill-mode: forwards; }
 
 .Header .yeni {
-  color: black;
+  color: #222222;
   animation-name: arrow-down;
   animation-duration: 3s;
   animation-fill-mode: forwards; }
@@ -420,7 +420,9 @@ template {
     font-family: 'Roboto Slab', serif; }
     .Main-form :nth-child(1) {
       font-size: 30px;
-      font-weight: 800; }
+      font-weight: 800;
+      letter-spacing: 2.5px;
+      color: #222222; }
     .Main-form .input {
       margin-top: 50px;
       margin-bottom: 50px;
@@ -442,5 +444,5 @@ template {
       font-family: 'Roboto Slab', serif;
       font-weight: 800; }
       .Main-form .button:hover {
-        background-color: black;
+        background-color: #222222;
         color: #fff; }

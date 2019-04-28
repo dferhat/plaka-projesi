@@ -13,7 +13,7 @@
         z-index: 6;
     }
 
-    &-nav{
+    .nav{
         display: none;
     }
 
@@ -50,7 +50,7 @@
     }
 
     .yeni{
-        color: black;
+        color: rgb(34, 34, 34);
         animation-name: arrow-down;
         animation-duration: 3s;
         animation-fill-mode: forwards;
@@ -84,6 +84,8 @@
         :nth-child(1){
             font-size: 30px;    
             font-weight: 800;
+            letter-spacing: 2.5px;
+            color: rgb(34, 34, 34);
         }
         
         .input{
@@ -110,7 +112,7 @@
             font-weight: 800;
 
             &:hover{
-                background-color: black;
+                background-color: rgb(34, 34, 34);
                 color: #fff;
             }
         }
