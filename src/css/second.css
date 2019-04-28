@@ -99,7 +99,8 @@
       margin-right: 20px; }
     .Main .timeline .box .arrow i {
       flex-shrink: 0;
-      cursor: pointer; }
+      cursor: pointer;
+      color: purple; }
   @media (min-width: 768px) {
     .Main .timeline {
       position: relative;
