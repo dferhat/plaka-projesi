@@ -1,5 +1,5 @@
-var icon = document.querySelector("i");
-var nav = document.querySelector(".nav");
+const icon = document.querySelector("i");
+const nav = document.querySelector(".nav");
 
 icon.addEventListener("click", () => {
 

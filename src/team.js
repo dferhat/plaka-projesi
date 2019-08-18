@@ -1,5 +1,5 @@
-var left = document.querySelector(".first");
-var right = document.querySelector(".second");
+const left = document.querySelector(".first");
+const right = document.querySelector(".second");
 
 left.addEventListener("mouseenter", () => {
     left.classList.add("mouseenter-left");
